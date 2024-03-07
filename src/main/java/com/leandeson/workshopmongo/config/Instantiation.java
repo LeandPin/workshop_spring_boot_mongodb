@@ -7,7 +7,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
 import java.util.Arrays;
-@Configuration  
+@Configuration
 public class Instantiation implements CommandLineRunner {
     @Autowired
     private UserRepository userRepository;
